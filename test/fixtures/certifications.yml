@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  certification_type: MyString
+  completed_date: 2015-02-11
+  expiry_date: 2015-02-11
+  issuer: MyString
+  instructor_name: MyString
+  user_id: 
+
+two:
+  certification_type: MyString
+  completed_date: 2015-02-11
+  expiry_date: 2015-02-11
+  issuer: MyString
+  instructor_name: MyString
+  user_id: 
