@@ -1,0 +1,16 @@
+<%= simple_form_for(@certification) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :certification_type %>
+    <%= f.input :completed_date %>
+    <%= f.input :expiry_date %>
+    <%= f.input :issuer %>
+    <%= f.input :instructor_name %>
+    <%= f.association :user %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
